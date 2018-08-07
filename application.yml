@@ -1,9 +1,11 @@
+# 激活 dev 开发环境
 spring:
   profiles:
     active: dev
 
 ---
 
+# dev 开发环境配置
 spring:
     profiles: dev
     application:
@@ -11,6 +13,7 @@ spring:
 
 ---
 
+# test 测试环境配置
 spring:
   profiles: test
   application:
