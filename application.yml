@@ -13,6 +13,5 @@ spring:
 
 spring:
   profiles: test
-    application:
-        name: microservice-config-test
-
+  application:
+    name: microservice-config-test
