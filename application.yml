@@ -2,20 +2,17 @@ spring:
   profiles:
     active: dev
 
-----
+---
 
 spring:
     profiles: dev
-
-jdbc:
-  url: jdbc:mysql:///db_dev
-
+    application:
+        name: microservice-config-dev
 
 ---
 
 spring:
   profiles: test
-
-jdbc:
-  url: jdbc:mysql:///db_test
+    application:
+        name: microservice-config-test
 
