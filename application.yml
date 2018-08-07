@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: dev
+
+----
+
+spring:
+    profiles: dev
+
+jdbc:
+  url: jdbc:mysql:///db_dev
+
+
+---
+
+spring:
+  profiles: test
+
+jdbc:
+  url: jdbc:mysql:///db_test
+
